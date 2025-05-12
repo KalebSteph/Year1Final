@@ -9,10 +9,26 @@ import SwiftUI
 
 struct ResultsScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, spacing: 20) {
+            Text("Select Player")
+                .font(.title)
+            
+            ForEach(1..<8) { _ in
+                VStack(alignment: .leading) {
+                    Text("Name:")
+                    Text("Location:")
+                }
+                .padding()
+                .frame(maxWidth: .infinity)
+                .background(Color("ButtonColor"))
+            }
+
+            Spacer()
+        }
+        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color("CardBackground"))
+        .ignoresSafeArea()
     }
 }
 
-#Preview {
-    ResultsScreen()
-}
