@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F8EF46872DD23EAF00A1E2EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8EF466E2DD23EAC00A1E2EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8EF46752DD23EAC00A1E2EB;
+			remoteInfo = SimplyCards;
+		};
+		F8EF46912DD23EAF00A1E2EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8EF466E2DD23EAC00A1E2EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8EF46752DD23EAC00A1E2EB;
+			remoteInfo = SimplyCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8EF46762DD23EAC00A1E2EB /* SimplyCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EF46862DD23EAF00A1E2EB /* SimplyCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EF46902DD23EAF00A1E2EB /* SimplyCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F8EF46782DD23EAC00A1E2EB /* SimplyCards */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimplyCards;
+			sourceTree = "<group>";
+		};
+		F8EF46892DD23EAF00A1E2EB /* SimplyCardsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimplyCardsTests;
+			sourceTree = "<group>";
+		};
+		F8EF46932DD23EAF00A1E2EB /* SimplyCardsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimplyCardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8EF46732DD23EAC00A1E2EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EF46832DD23EAF00A1E2EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EF468D2DD23EAF00A1E2EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8EF466D2DD23EAC00A1E2EB = {
+			isa = PBXGroup;
+			children = (
+				F8EF46782DD23EAC00A1E2EB /* SimplyCards */,
+				F8EF46892DD23EAF00A1E2EB /* SimplyCardsTests */,
+				F8EF46932DD23EAF00A1E2EB /* SimplyCardsUITests */,
+				F8EF46772DD23EAC00A1E2EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8EF46772DD23EAC00A1E2EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8EF46762DD23EAC00A1E2EB /* SimplyCards.app */,
+				F8EF46862DD23EAF00A1E2EB /* SimplyCardsTests.xctest */,
+				F8EF46902DD23EAF00A1E2EB /* SimplyCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8EF46752DD23EAC00A1E2EB /* SimplyCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EF469A2DD23EAF00A1E2EB /* Build configuration list for PBXNativeTarget "SimplyCards" */;
+			buildPhases = (
+				F8EF46722DD23EAC00A1E2EB /* Sources */,
+				F8EF46732DD23EAC00A1E2EB /* Frameworks */,
+				F8EF46742DD23EAC00A1E2EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F8EF46782DD23EAC00A1E2EB /* SimplyCards */,
+			);
+			name = SimplyCards;
+			packageProductDependencies = (
+			);
+			productName = SimplyCards;
+			productReference = F8EF46762DD23EAC00A1E2EB /* SimplyCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8EF46852DD23EAF00A1E2EB /* SimplyCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EF469D2DD23EAF00A1E2EB /* Build configuration list for PBXNativeTarget "SimplyCardsTests" */;
+			buildPhases = (
+				F8EF46822DD23EAF00A1E2EB /* Sources */,
+				F8EF46832DD23EAF00A1E2EB /* Frameworks */,
+				F8EF46842DD23EAF00A1E2EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8EF46882DD23EAF00A1E2EB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F8EF46892DD23EAF00A1E2EB /* SimplyCardsTests */,
+			);
+			name = SimplyCardsTests;
+			packageProductDependencies = (
+			);
+			productName = SimplyCardsTests;
+			productReference = F8EF46862DD23EAF00A1E2EB /* SimplyCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8EF468F2DD23EAF00A1E2EB /* SimplyCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EF46A02DD23EAF00A1E2EB /* Build configuration list for PBXNativeTarget "SimplyCardsUITests" */;
+			buildPhases = (
+				F8EF468C2DD23EAF00A1E2EB /* Sources */,
+				F8EF468D2DD23EAF00A1E2EB /* Frameworks */,
+				F8EF468E2DD23EAF00A1E2EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8EF46922DD23EAF00A1E2EB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F8EF46932DD23EAF00A1E2EB /* SimplyCardsUITests */,
+			);
+			name = SimplyCardsUITests;
+			packageProductDependencies = (
+			);
+			productName = SimplyCardsUITests;
+			productReference = F8EF46902DD23EAF00A1E2EB /* SimplyCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8EF466E2DD23EAC00A1E2EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F8EF46752DD23EAC00A1E2EB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F8EF46852DD23EAF00A1E2EB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F8EF46752DD23EAC00A1E2EB;
+					};
+					F8EF468F2DD23EAF00A1E2EB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F8EF46752DD23EAC00A1E2EB;
+					};
+				};
+			};
+			buildConfigurationList = F8EF46712DD23EAC00A1E2EB /* Build configuration list for PBXProject "SimplyCards" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8EF466D2DD23EAC00A1E2EB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F8EF46772DD23EAC00A1E2EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8EF46752DD23EAC00A1E2EB /* SimplyCards */,
+				F8EF46852DD23EAF00A1E2EB /* SimplyCardsTests */,
+				F8EF468F2DD23EAF00A1E2EB /* SimplyCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8EF46742DD23EAC00A1E2EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EF46842DD23EAF00A1E2EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EF468E2DD23EAF00A1E2EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8EF46722DD23EAC00A1E2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EF46822DD23EAF00A1E2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EF468C2DD23EAF00A1E2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8EF46882DD23EAF00A1E2EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8EF46752DD23EAC00A1E2EB /* SimplyCards */;
+			targetProxy = F8EF46872DD23EAF00A1E2EB /* PBXContainerItemProxy */;
+		};
+		F8EF46922DD23EAF00A1E2EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8EF46752DD23EAC00A1E2EB /* SimplyCards */;
+			targetProxy = F8EF46912DD23EAF00A1E2EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8EF46982DD23EAF00A1E2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8EF46992DD23EAF00A1E2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8EF469B2DD23EAF00A1E2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplyCards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fhnw.SimplyCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8EF469C2DD23EAF00A1E2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplyCards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fhnw.SimplyCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8EF469E2DD23EAF00A1E2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fhnw.SimplyCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyCards";
+			};
+			name = Debug;
+		};
+		F8EF469F2DD23EAF00A1E2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fhnw.SimplyCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyCards";
+			};
+			name = Release;
+		};
+		F8EF46A12DD23EAF00A1E2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fhnw.SimplyCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplyCards;
+			};
+			name = Debug;
+		};
+		F8EF46A22DD23EAF00A1E2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fhnw.SimplyCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplyCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8EF46712DD23EAC00A1E2EB /* Build configuration list for PBXProject "SimplyCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EF46982DD23EAF00A1E2EB /* Debug */,
+				F8EF46992DD23EAF00A1E2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EF469A2DD23EAF00A1E2EB /* Build configuration list for PBXNativeTarget "SimplyCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EF469B2DD23EAF00A1E2EB /* Debug */,
+				F8EF469C2DD23EAF00A1E2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EF469D2DD23EAF00A1E2EB /* Build configuration list for PBXNativeTarget "SimplyCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EF469E2DD23EAF00A1E2EB /* Debug */,
+				F8EF469F2DD23EAF00A1E2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EF46A02DD23EAF00A1E2EB /* Build configuration list for PBXNativeTarget "SimplyCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EF46A12DD23EAF00A1E2EB /* Debug */,
+				F8EF46A22DD23EAF00A1E2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8EF466E2DD23EAC00A1E2EB /* Project object */;
+}
