@@ -11,8 +11,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px; /* space between title and image */
-  margin-bottom: 30px;
+  gap: 550px; /* space between title and image */
+  margin-bottom: 100px;
 }
 
 .title {
@@ -30,7 +30,6 @@
 .cardsImage {
   width: 300px;
   height: auto;
-  border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
