@@ -15,7 +15,7 @@ export default function HomePage() {
       </div>
 
       <div className={styles.buttonWrapper}>
-        <button className={styles.button} onClick={() => window.location.href = "/enter"}>
+        <button className={styles.button} onClick={() => window.location.href = "/adminEvent"}>
           Enter
         </button>
       </div>
