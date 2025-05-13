@@ -402,7 +402,9 @@
     ],
     "packageJson": {
       "dependencies": [
-        "npm:express@^5.1.0"
+        "npm:cors@^2.8.5",
+        "npm:express@^5.1.0",
+        "npm:mysql2@^3.14.1"
       ]
     }
   }

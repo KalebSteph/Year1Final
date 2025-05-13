@@ -1,8 +1,25 @@
-export function add(a: number, b: number): number {
-  return a + b;
-}
+import express from "npm:express";
+import cors from 'npm:cors';
+import mysql from "npm:mysql2"
 
-// Learn more at https://docs.deno.com/runtime/manual/examples/module_metadata#concepts
-if (import.meta.main) {
-  console.log("Add 2 + 3 =", add(2, 3));
-}
+const app = express() 
+app.use(cors())
+app.use
+
+const connection = mysql.createConnection({
+  host: "localhost", 
+  user: "web", 
+  password: "AGoodPassword",
+  database: "SimplyData"
+})
+
+connection.connect((err)=> {
+  if(err) console.log(err);
+})
+
+connection.query("SELECT * FROM Players", (err, results) => {
+  if(err) throw err
+  console.log(results);
+  
+})
+
