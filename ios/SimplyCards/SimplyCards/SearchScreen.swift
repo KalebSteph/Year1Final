@@ -7,25 +7,33 @@
 
 import SwiftUI
 
-struct Player: Identifiable, Codable{
-    var id:String
-    var name:String
-    var date: String
+struct Player: Codable, Identifiable{
+    var id : Int
+    var date:String
+    var time: String
     var location: String
+    
+    enum CodingKeys: String, CodingKey {
+        case id = "PlayerID"
+        case date
+        case time
+        case location
+    }
 }
 
-struct PlayerResponse: Codable {
-    var data: [Player]
-}
+
 
 func getPlayers() async throws -> [Player] {
     enum WebRequestError: Error {
         case codeRequestError
     }
 
-    let (data, response) = try await URLSession.shared.data(from: URL(string: "http://localhost:3005/players")!)
+    let url = URL(string: "http://localhost:3005/players")!
+    let (data, response) = try await URLSession.shared.data(from: url)
+    
+    print(String(data: data, encoding: .utf8))
 
-    guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+    guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
         throw WebRequestError.codeRequestError
     }
 
@@ -34,7 +42,6 @@ func getPlayers() async throws -> [Player] {
 
     return result
 }
-
 
 struct SearchScreen: View {
     var body: some View {

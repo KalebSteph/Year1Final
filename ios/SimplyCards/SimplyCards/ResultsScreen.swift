@@ -19,10 +19,11 @@ struct ResultsScreen: View {
 
             List(players) { player in
                 VStack(alignment: .leading) {
-                    Text(player.name)
+                    Text("\(player.id)")
                         .font(.headline)
                     Text("Date: \(player.date)")
                     Text("Location: \(player.location)")
+                    Text("Time: \(player.time)")
                 }
             }
 
