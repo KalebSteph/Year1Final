@@ -8,7 +8,7 @@ app.use
 
 const connection = mysql.createConnection({
   host: "localhost", 
-  user: "web2", 
+  user: "web", 
   password: "AGoodPassword",
   database: "SimplyData"
 })
