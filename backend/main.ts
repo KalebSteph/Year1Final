@@ -4,7 +4,7 @@ import mysql from "npm:mysql2"
 
 const app = express() 
 app.use(cors())
-app.use
+// app.use
 
 const connection = mysql.createConnection({
   host: "localhost", 
@@ -20,7 +20,6 @@ connection.connect((err)=> {
 connection.query("SELECT * FROM Players", (err, results) => {
   if(err) throw err
   console.log(results);
-  
 })
 
 

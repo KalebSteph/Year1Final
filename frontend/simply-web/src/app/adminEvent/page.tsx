@@ -11,6 +11,17 @@ const abi = [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{
 export default function AdminEventPage() {
   const router = useRouter();
   const [contract, setContract] = useState<ethers.Contract>()
+  const [data, setData] = useState("")
+
+  async function getData(){
+    let response = await fetch("http://localhost:3005/")
+    let data = await response.json();
+    
+    console.log(data);
+    
+
+    setData(data.data);
+  }
 
   async function connectToWallet() {
     if(contract != undefined){
