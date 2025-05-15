@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8EA7BE;
+}
+
+.titleImageRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 550px; /* space between title and image */
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size: 4.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardsImage {
+  width: 300px;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.buttonWrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.button {
+  padding: 10px 20px;
+  width: 200px;
+  height: 100px;
+  font-size: 32px;
+  background-color: #518EC7;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3a6e9e;
+}
