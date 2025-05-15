@@ -7,6 +7,33 @@
 
 import SwiftUI
 
+struct Player: Identifiable, Codable{
+    var id:String
+    var name:String
+    var date: String
+    var location: String
+}
+
+struct PlayerResponse: Codable {
+    var data: [Player]
+}
+
+func getPlayers() async throws -> [Player] {
+    enum WebRequestError: Error {
+        case codeRequestError
+    }
+
+    let (data, response) = try await URLSession.shared.data(from: URL(string: "http://localhost:3005/players")!)
+
+    guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+        throw WebRequestError.codeRequestError
+    }
+
+    let jsonDecoder = JSONDecoder()
+    let result = try jsonDecoder.decode([Player].self, from: data)
+
+    return result
+}
 
 
 struct SearchScreen: View {

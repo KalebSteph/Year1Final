@@ -8,27 +8,48 @@
 import SwiftUI
 
 struct ResultsScreen: View {
+    @State private var players: [Player] = []
+    @State private var error: String?
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text("Select Player")
-                .font(.title)
-            
-            ForEach(1..<8) { _ in
-                VStack(alignment: .leading) {
-                    Text("Name:")
-                    Text("Location:")
-                }
-                .padding()
-                .frame(maxWidth: .infinity)
-                .background(Color("ButtonColor"))
+        VStack {
+            if let error = error {
+                Text("Error: \(error)")
             }
 
-            Spacer()
+            List(players) { player in
+                VStack(alignment: .leading) {
+                    Text(player.name)
+                        .font(.headline)
+                    Text("Date: \(player.date)")
+                    Text("Location: \(player.location)")
+                }
+            }
+
+            Button("Refresh Players") {
+                Task {
+                    do {
+                        players = try await getPlayers()
+                    } catch {
+                        self.error = error.localizedDescription
+                    }
+                }
+            }
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .cornerRadius(10)
         }
-        .padding()
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color("CardBackground"))
-        .ignoresSafeArea()
+        .onAppear {
+            Task {
+                do {
+                    players = try await getPlayers()
+                } catch {
+                    self.error = error.localizedDescription
+                }
+            }
+        }
     }
 }
+
 
