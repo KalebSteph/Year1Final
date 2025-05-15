@@ -11,17 +11,23 @@ const abi = [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{
 export default function AdminEventPage() {
   const router = useRouter();
   const [contract, setContract] = useState<ethers.Contract>()
-  const [data, setData] = useState("")
+  const [data, setData] = useState([]);
 
-  async function getData(){
-    let response = await fetch("http://localhost:3000/")
-    let data = await response.json();
-    
-    console.log(data);
-    
+async function getData() {
+  try {
+    const response = await fetch("http://localhost:3005/players");
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
 
-    setData(data.data);
+    const result = await response.json();
+    console.log("Fetched players:", result);
+
+    setData(result); // because your backend sends JSON array directly
+  } catch (error) {
+    console.error("Failed to fetch players:", error);
   }
+}
 
   async function connectToWallet() {
     if(contract != undefined){
@@ -58,7 +64,7 @@ export default function AdminEventPage() {
 
       <div className={styles.section}>
         <h1 className={styles.title}>Add Event</h1>
-        <button className={styles.button}>Event +</button>
+        <button className={styles.button} onClick={getData}>Event +</button>
         <button className={styles.button} onClick={connectToWallet}>Connect to Wallet</button>
       </div>
     </div>
