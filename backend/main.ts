@@ -8,7 +8,7 @@ app.use
 
 const connection = mysql.createConnection({
   host: "localhost", 
-  user: "web", 
+  user: "web2", 
   password: "AGoodPassword",
   database: "SimplyData"
 })
@@ -22,4 +22,6 @@ connection.query("SELECT * FROM Players", (err, results) => {
   console.log(results);
   
 })
+
+
 
