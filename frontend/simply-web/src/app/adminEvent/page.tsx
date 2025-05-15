@@ -14,7 +14,7 @@ export default function AdminEventPage() {
   const [data, setData] = useState("")
 
   async function getData(){
-    let response = await fetch("http://localhost:3005/")
+    let response = await fetch("http://localhost:3000/")
     let data = await response.json();
     
     console.log(data);
